@@ -1,3 +1,12 @@
+.flex
+{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
 
 .section_timer
 {
@@ -103,10 +112,7 @@
     position: absolute;
     bottom: -70px;
     left: 50%;
-
     display: block;
-
     margin-left: -18px;
-
     pointer-events: none;
 }
