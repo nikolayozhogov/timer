@@ -2,8 +2,6 @@
 .section_timer
 {
     padding: 40px 0;
-
-    background: #17116e;
 }
 
 .section_timer.bot
@@ -18,9 +16,15 @@
     position: relative;
 }
 
+.cont {
+    width: 100%;
+    max-width: 1064px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
 .timer_name
 {
-    color: #fff;
     font-family: 'TTNorms';
     font-size: 20px;
     font-weight: 700;
@@ -66,7 +70,6 @@
 
 .timer .val
 {
-    color: #fff;
     font-family: 'TTNorms';
     font-size: 54px;
     font-weight: 700;
