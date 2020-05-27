@@ -1,13 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
-			<meta name="theme-color" content="#000000">
-			<meta content="IE=Edge" http-equiv="X-UA-Compatible">
-			<title>VK Mini App Boilerplate</title>
-	</head>
-	<body>
-			<div id="root"></div>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+	<meta name="theme-color" content="#000000">
+	<meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="js/countdown.js"></script>
+
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+
+
+<section class="section_timer">
+	<div class="cont">
+		<div class="timer_line">
+			<div class="timer_name">До старта обучения 28 мая</div>
+
+			<div class="timer flex">
+				<div class="item">
+					<div class="name">дни</div>
+					<div class="val">00</div>
+				</div>
+				<div class="sep">:</div>
+				<div class="item">
+					<div class="name">часы</div>
+					<div class="val">00</div>
+				</div>
+				<div class="sep">:</div>
+				<div class="item">
+					<div class="name">минуты</div>
+					<div class="val">00</div>
+				</div>
+				<div class="sep">:</div>
+				<div class="item">
+					<div class="name">секунды</div>
+					<div class="val">00</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<script>
+	$(function () {
+		$('.timer').countdown('2021/05/28 10:00:00', function(event) {
+			$(this).html( event.strftime(String()
+					+ '<div class="item">'
+					+ '<div class="name">дни</div>'
+					+ '<div class="val">%D</div>'
+					+ '</div>'
+
+					+'<div class="sep">:</div>'
+
+					+ '<div class="item">'
+					+ '<div class="name">часы</div>'
+					+ '<div class="val">%H</div>'
+					+ '</div>'
+
+					+'<div class="sep">:</div>'
+
+					+ '<div class="item">'
+					+ '<div class="name">минуты</div>'
+					+ '<div class="val">%M</div>'
+					+ '</div>'
+
+					+'<div class="sep">:</div>'
+
+					+ '<div class="item">'
+					+ '<div class="name">секунды</div>'
+					+ '<div class="val">%S</div>'
+					+ '</div>'
+					)
+			)
+		})
+	})
+</script>
+
+
+</body>
 </html>
