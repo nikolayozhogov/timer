@@ -53,31 +53,31 @@
 	$(function () {
 		$('.timer').countdown('2021/05/28 10:00:00', function(event) {
 			$(this).html( event.strftime(String()
-					+ '<div class="item">'
-					+ '<div class="name">дни</div>'
-					+ '<div class="val">%D</div>'
-					+ '</div>'
+					+ '<span class="item">'
+					+ '<span class="name">дни</span>'
+					+ '<span class="val">%D</span>'
+					+ '</span>'
 
-					+'<div class="sep">:</div>'
+					+'<span class="sep">:</span>'
 
-					+ '<div class="item">'
-					+ '<div class="name">часы</div>'
-					+ '<div class="val">%H</div>'
-					+ '</div>'
+					+ '<span class="item">'
+					+ '<span class="name">часы</span>'
+					+ '<span class="val">%H</span>'
+					+ '</span>'
 
-					+'<div class="sep">:</div>'
+					+'<span class="sep">:</span>'
 
-					+ '<div class="item">'
-					+ '<div class="name">минуты</div>'
-					+ '<div class="val">%M</div>'
-					+ '</div>'
+					+ '<span class="item">'
+					+ '<span class="name">минуты</span>'
+					+ '<span class="val">%M</span>'
+					+ '</span>'
 
-					+'<div class="sep">:</div>'
+					+'<span class="sep">:</span>'
 
-					+ '<div class="item">'
-					+ '<div class="name">секунды</div>'
-					+ '<div class="val">%S</div>'
-					+ '</div>'
+					+ '<span class="item">'
+					+ '<span class="name">секунды</span>'
+					+ '<span class="val">%S</span>'
+					+ '</span>'
 					)
 			)
 		})
