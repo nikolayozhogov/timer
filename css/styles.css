@@ -35,7 +35,7 @@
 .timer_name
 {
     font-family: 'TTNorms';
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
 
     margin-bottom: 28px;
@@ -70,7 +70,7 @@
 
 .timer .name
 {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     margin-bottom: 6px;
 }
@@ -78,7 +78,7 @@
 .timer .val
 {
     font-family: 'TTNorms';
-    font-size: 54px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 66px;
 }
@@ -87,7 +87,7 @@
 {
     color: #46e1b4;
     font-family: 'TTNorms';
-    font-size: 54px;
+    font-size: 24px;
     line-height: 76px;
 
     width: 60px;
