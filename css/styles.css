@@ -1,0 +1,111 @@
+
+.section_timer
+{
+    padding: 40px 0;
+
+    background: #17116e;
+}
+
+.section_timer.bot
+{
+    position: relative;
+
+    padding: 68px 0;
+}
+
+.section_timer .cont
+{
+    position: relative;
+}
+
+.timer_name
+{
+    color: #fff;
+    font-family: 'TTNorms';
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-bottom: 28px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section_timer.bot .timer_name
+{
+    text-align: left;
+}
+
+.timer
+{
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.section_timer.bot .timer
+{
+    justify-content: flex-start;
+}
+
+.timer .item
+{
+    min-width: 104px;
+
+    text-align: center;
+}
+
+.timer .name
+{
+    color: rgba(255, 255, 255, .4);
+    font-size: 20px;
+    font-weight: 500;
+
+    margin-bottom: 6px;
+}
+
+.timer .val
+{
+    color: #fff;
+    font-family: 'TTNorms';
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.timer .sep
+{
+    color: #46e1b4;
+    font-family: 'TTNorms';
+    font-size: 54px;
+    line-height: 76px;
+
+    width: 60px;
+
+    text-align: center;
+
+    text-shadow: 0 0 10px #46e1b4;
+}
+
+.section_timer .line_btn
+{
+    margin-top: 55px;
+}
+
+.section_timer .buy_btn
+{
+    margin-top: 0;
+}
+
+.section_timer .img_abs
+{
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+
+    display: block;
+
+    margin-left: -18px;
+
+    pointer-events: none;
+}
